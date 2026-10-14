@@ -6,7 +6,7 @@ double sqrt(double a, double b, double c)
 { double x;
   double B= b*b;
   double y= a*c;
-    x= (-b-(sqrt(B+4*y)))/4*a;
+    x= (-b-(sqrt(B+4*y)))/(4*a);
    return x;
 }
 int main ()
